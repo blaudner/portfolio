@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>portfolio — Projects</title>
+  <link rel="icon" href="/docs/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/docs/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1 class="site-title">portfolio</h1>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/docs/about.html">About</a>
+        <a href="/docs/projects.html">Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <article>
+      <h2>Projects</h2>
+      <p>List your projects here. Example format:</p>
+      <ul class="projects">
+        <li>
+          <h4>Project One</h4>
+          <p>Short description and <a href="#">link</a>.</p>
+        </li>
+        <li>
+          <h4>Project Two</h4>
+          <p>Short description and <a href="#">link</a>.</p>
+        </li>
+      </ul>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">© <span id="year3"></span> portfolio</div>
+  </footer>
+
+<script>document.getElementById('year3').textContent = new Date().getFullYear();</script>
+</body>
+</html>

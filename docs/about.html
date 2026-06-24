@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>portfolio — About</title>
+  <link rel="icon" href="/docs/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/docs/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1 class="site-title">portfolio</h1>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/docs/about.html">About</a>
+        <a href="/docs/projects.html">Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <article>
+      <h2>About</h2>
+      <p>This is an About page. Replace with a short bio, links to social profiles, and a resume download link.</p>
+      <h3>Skills</h3>
+      <ul>
+        <li>JavaScript / TypeScript</li>
+        <li>HTML &amp; CSS</li>
+        <li>Web design</li>
+      </ul>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">© <span id="year2"></span> portfolio</div>
+  </footer>
+
+<script>document.getElementById('year2').textContent = new Date().getFullYear();</script>
+</body>
+</html>

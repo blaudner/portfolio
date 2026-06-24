@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>portfolio — Home</title>
+  <link rel="icon" href="/docs/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/docs/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1 class="site-title">portfolio</h1>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/docs/about.html">About</a>
+        <a href="/docs/projects.html">Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <h2>Welcome</h2>
+      <p>Hi — this is a placeholder homepage for the portfolio site. Replace this text with a short intro about yourself, links to projects, or a resume summary.</p>
+      <p class="cta"><a class="button" href="/docs/projects.html">View projects</a></p>
+    </section>
+
+    <section class="content">
+      <h3>Featured</h3>
+      <p>Use the Projects page to list repositories, demos, and case studies.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">© <span id="year"></span> portfolio — built with GitHub Pages</div>
+  </footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
